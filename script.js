@@ -7,10 +7,9 @@ var sym = ['!','#','$','%','&','(',')','*','+',',','-','.','/',':',';','<','=','
 var password = document.getElementById('password');
 var button1 = document.getElementById('generate')
 var button2 = document.getElementById('copy')
-
+var length = prompt("What is your character length")
 
 function getPasswordOptions () {
-    var length = parseInt(prompt("What is your character length"))
     if (isNaN(length) === true) {
         alert ("Password length must be provided as a number") 
         return
@@ -53,9 +52,9 @@ function getPasswordOptions () {
 
 getPasswordOptions()
 
-function generatepass(characters) {
+function generatepass(length, characters) {
     var pass = ' ';
-    for (var i = 0; i < characters.length; i++){
+    for (var i = 0; i < length; i++){
         pass += characters.charAt(Math.floor(Math.random() * characters.length));
     }
     return pass;
@@ -63,7 +62,7 @@ function generatepass(characters) {
 
 button1.addEventListener('click', function() {
 
-    password.value = generatepass(characters)
+    password.value = generatepass(length, characters)
 });
 
 button2.addEventListener('click', function () {
