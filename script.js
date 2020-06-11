@@ -4,12 +4,15 @@ var lowercase = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p'
 var numbers = ['1','2','3','4','5','6','7','8','9','0'];
 var sym = ['!','#','$','%','&','(',')','*','+',',','-','.','/',':',';','<','=','>','?','@','^','_','{','|','}','~'];*/
 
+var length = parseInt(prompt("What is your character length"))
+
 var password = document.getElementById('password');
 var button1 = document.getElementById('generate')
 var button2 = document.getElementById('copy')
-var length = prompt("What is your character length")
+
 
 function getPasswordOptions () {
+    
     if (isNaN(length) === true) {
         alert ("Password length must be provided as a number") 
         return
