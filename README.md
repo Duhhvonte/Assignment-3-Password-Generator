@@ -1,4 +1,20 @@
-The purpose of this assignment was to create a password generator using the 4 character types: uppercase, lowercase, numbers and symbols.
-the user is asked how many characters you would like and confirm whether you would want to use all for types or just a few. You would then press the generate password button to create a password of that length. There are 2 versions of the javascript file. Version 1 is incomplete but the user is able to decide what length and character type they want however a password isnt generated. Version 2 or "script.js" has a working password generator that allows the user to decide the length however it uses all character types.
+# Password Generator
 
-![](images/Password-Gen-screenshot.png)
+## Screenshot
+
+![Screenshot](images/Password-Gen-screenshot.png)
+
+## Overview
+
+The purpose of this is to create a password generator using the 4 character types: uppercase, lowercase, numbers and symbols.
+
+The user is asked how many characters they would like and confirm whether you would want to use all 4 types or just a few. You would then press the generate password button to create a password of that length. The copy to clip board button then copies the generated password.
+
+## User Story
+
+* As a user, I want to be able to generate a password following specific criteria and copy it to a clipboard.
+
+# Info / Questions
+
+* [Github](https:/github.com/Duhhvonte)
+* devonte.letts@gmail.com
