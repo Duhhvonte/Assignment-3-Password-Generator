@@ -1,5 +1,7 @@
 # Password Generator
 
+https://duhhvonte.github.io/Password-Generator/
+
 ## Screenshot
 
 ![Screenshot](images/Password-Gen-screenshot.png)
