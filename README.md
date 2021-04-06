@@ -1,6 +1,6 @@
 # Password Generator
 
-https://duhhvonte.github.io/Password-Generator/
+https://spacedel.github.io/Password-Generator/
 
 ## Screenshot
 
@@ -18,5 +18,4 @@ The user is asked how many characters they would like and confirm whether you wo
 
 # Info / Questions
 
-* [Github](https:/github.com/Duhhvonte)
-* devonte.letts@gmail.com
+* [Devonte Letts](https:/github.com/spacedel)
